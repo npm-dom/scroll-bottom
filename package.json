@@ -1,0 +1,22 @@
+{
+  "name": "scroll-bottom",
+  "version": "0.0.0",
+  "description": "Calculate & return bottom position of the vertical scroll",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test -b"
+  },
+  "keywords": [
+    "scroll",
+    "dom"
+  ],
+  "repository": {
+    "url": "git@github.com:npm-dom/scroll-bottom.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "devDependencies": {
+    "prova": "^2.1.2"
+  }
+}
