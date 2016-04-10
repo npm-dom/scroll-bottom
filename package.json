@@ -1,10 +1,10 @@
 {
   "name": "scroll-bottom",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Calculate & return bottom position of the vertical scroll",
   "main": "index.js",
   "scripts": {
-    "test": "node test -b"
+    "test": "browserify test.js | tape-run --browser=safari"
   },
   "keywords": [
     "scroll",
@@ -17,6 +17,8 @@
   "author": "azer",
   "license": "BSD",
   "devDependencies": {
-    "prova": "^2.1.2"
+    "browserify": "13.0.0",
+    "tape": "4.5.1",
+    "tape-run": "2.1.3"
   }
 }

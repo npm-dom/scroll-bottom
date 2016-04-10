@@ -1,4 +1,4 @@
-var test = require("prova");
+var test = require("tape");
 var scrollBottom = require("./");
 
 test('returns a number', function (t) {
